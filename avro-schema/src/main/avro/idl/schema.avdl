@@ -6,5 +6,5 @@ protocol Greetings {
   }
 
   Greeting getGreeting();
-
+  void addGreeting(Greeting greeting);
 }

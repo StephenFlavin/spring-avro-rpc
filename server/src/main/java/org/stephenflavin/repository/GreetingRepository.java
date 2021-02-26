@@ -27,4 +27,8 @@ public class GreetingRepository {
         return GREETINGS.get(0);
     }
 
+    public void addGreeting(String greeting) {
+        GREETINGS.add(greeting);
+    }
+
 }
