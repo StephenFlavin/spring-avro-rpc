@@ -1,0 +1,10 @@
+@namespace("org.stephenflavin")
+protocol Greetings {
+
+  record Greeting {
+    string text;
+  }
+
+  Greeting getGreeting();
+
+}
